@@ -1,0 +1,69 @@
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*~
+*.swp
+
+# Archivos de compilación
+*.o
+*.obj
+*.class
+*.dll
+*.exe
+
+# Archivos de configuración local
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.env
+
+# Directorios de dependencias o generados automáticamente
+/node_modules/
+/vendor/
+/dist/
+/build/
+/out/
+/coverage/
+/public/styles.css
+
+# Archivos de herramientas o configuraciones locales
+/.idea/
+/.vscode/
+/.vs/
+/.sass-cache/
+/tmp/
+/logs/
+/yarn-error.log
+/npm-debug.log
+
+# Archivos de IDEs y editores
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.user
+*.sln
+*.csproj
+*.xcodeproj
+*.xcworkspace
+
+# Archivos de logs
+*.log
+
+# Ignorar todo un subdirectorio de logs
+logs/
+
+# Archivos de configuración de npm
+package-lock.json
+
+# Ignorar archivos y carpetas generados por pruebas
+/coverage/
+test-output/
+
+# Archivos generados por Webpack o parcel
+webpack.config.js
+
+# Archivos de imágenes de caché
+.cache/
