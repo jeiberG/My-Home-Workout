@@ -18,6 +18,29 @@
     font-display:swap;
 
 }
+
+@font-face {
+  font-family: 'Fredoka';
+  src: 
+      url('../fonts/Fredoka-Regular.woff2') format('woff2'),
+      url('../fonts/Fredoka-Regular.woff') format('woff'),
+      url('../fonts/Fredoka-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lemon';
+  src: 
+      url('../fonts/Lemon-Regular.woff2') format('woff2'),
+      url('../fonts/Lemon-Regular.woff') format('woff'),
+      url('../fonts/Lemon-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Aquí definimos las Custom properties */
 :root {
   --negro: #393939;
