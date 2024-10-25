@@ -10,21 +10,13 @@
 
 */
 /*regla font-face*/
-@font-face{
-    font-family:'Fredoka';
-    src:
-        url(../fonts/Fredoka-SemiBold.woff)  format("woff"),
-        url(../fonts/Fredoka-SemiBold.ttf)  format("truetype");
-    font-display:swap;
-
-}
 
 @font-face {
   font-family: 'Fredoka';
   src: 
-      url('../fonts/Fredoka-Regular.woff2') format('woff2'),
-      url('../fonts/Fredoka-Regular.woff') format('woff'),
-      url('../fonts/Fredoka-Regular.ttf') format('truetype');
+      url('/public/assets/fonts/Fredoka-Regular.woff2') format('woff2'),
+      url('/public/assets/fonts/Fredoka-Regular.woff') format('woff'),
+      url('/public/assets/fonts/Fredoka-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -33,28 +25,14 @@
 @font-face {
   font-family: 'Lemon';
   src: 
-      url('../fonts/Lemon-Regular.woff2') format('woff2'),
-      url('../fonts/Lemon-Regular.woff') format('woff'),
-      url('../fonts/Lemon-Regular.ttf') format('truetype');
+      url('/public/assets/fonts/Lemon-Regular.woff2') format('woff2'),
+      url('/public/assets/fonts/Lemon-Regular.woff') format('woff'),
+      url('/public/assets/fonts/Lemon-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
-/* Aquí definimos las Custom properties */
-:root {
-  --negro: #393939;
-  /* Tipografía */
-  --tipo-principal: Helvetica, Arial, sans-serif;
-  --tipo-secundaria: Verdana;
-}
-
-/* Las adaptamos al modo oscuro */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --negro: #ececec;
-  }
-}
 /* Opcional */
 /* Configuramos si un usuario ha activado el modo alto contraste. (WD) */
 /* Opcional */
@@ -133,12 +111,12 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 /* Configuramos el texto que seleccionamos */
 ::-moz-selection {
-  background-color: var(--negro);
-  color: var(--blanco);
+  background-color: var(--color-black);
+  color: var(--color-white);
 }
 ::selection {
-  background-color: var(--negro);
-  color: var(--blanco);
+  background-color: var(--color-black);
+  color: var(--color-white);
 }
 
 /* Nivelamos problemas de tipografías y colocación de formularios */
@@ -180,7 +158,7 @@ body {
   min-height: 100vh;
   font-size: 100%;
   font-family: var(--tipo-principal);
-  color: var(--negro);
+  color: var(--color-black);
   /* opcional */
   line-height: 1.4em;
   /* opcional */

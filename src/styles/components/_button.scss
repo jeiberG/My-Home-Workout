@@ -1,0 +1,40 @@
+div.btn {
+    position: relative;
+    border-radius: var(--spacing-m);
+    background-color: var(--color-button, #FF9800);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 24px;
+    box-sizing: border-box;
+    gap: 24px;
+    text-align: center;
+    font-size: var(--font-size-h5);
+    color: var(--primary900);
+    font-family: var(--font-size-h5);
+    button.btn {
+        position: relative;
+        // border: none;
+        // display: inline-flex;
+        // padding: 8px 24px;
+        // justify-content: center;
+        // align-items: center;
+        // gap: 24px;
+        // border-radius: var(--spacing-m, 20px);
+        // background-color: var(--color-button, #FF9800);  
+
+    }
+    img.help-icon {
+        width: 32px;
+        position: relative;
+        height: 32px;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+    &:hover {
+        background-color: darken(#FF9800, 10%);
+    }
+}
+
